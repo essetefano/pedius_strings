@@ -1,450 +1,476 @@
 //ACCOUNT
-"account_name" = "First name";
-"account_surname" = "Last name";
-"account_personal_data" = "Personal Data";
+"account_name" = "Nome";
+"account_surname" = "Cognome";
+"account_personal_data" = "Dati personali";
 "account_logout" = "Logout";
-"account_logout_google" = "Logout and revoke access to google";
-"account_logout_message" = "Are you sure you want to quit Pedius?";
-"account_change_password" = "Change password";
-"account_login" = "Logging in...";
-"account_confirm_data_error" = "Please enter Name and Surname";
+"account_logout_google" = "Logout e revoca accesso a Google";
+"account_logout_message" = "Sei sicuro di voler effettuare il logout?";
+"account_change_password" = "Cambia password";
+"account_login" = "Accesso in corso ...";
+"account_confirm_data_error" = "Per piacere inserisci nome e cognome";
 //CALL
-"call_ask_repeat_audio" = "Repeat Sending";
-"call_audio_cancel" = "Cancelled!";
-"call_audio_resending" = "Repeat sending in progress ...";
-"call_audio_sending" = "Sending...";
-"call_feedback_button_record" = "Speak now, then release button to send your message";
-"call_wait_for_operator" = "Please wait, the first available operator will answer you.";
-"call_talking" = "Is talking";
-"call_callterminated" = "End of call";
-"call_calleepickup" = "The contact has answered ";
-"call_no_answer" = "No answer";
-"call_repeat" = "Can you repeat please?";
-"call_start" = "Start call";
-"call_ringing" = "Ringing";
-"call_busy" = "The user you are trying to reach is busy";
-"call_invalid_number" = "Invalid Number";
-"dropped_call_string" = "Call dropped unexpectedly";
-"call_lost_connection" = "Data connection lost. Call ended.";
-"call_no_credit_message" = "Your Pedius credit is not enough to start a phone call.";
-"call_write_message" = "Insert a message";
-"call_generic_error" = "Attention, could not start a conversation";
-"call_permission_request_mic" = "Please enable permissions to access microphone";
-"call_ask_repeat" = "Ask to repeat?";
-"call_question_terminate_call" = "Are you sure you want to end the call";
-"call_streaming_off" = "Voice mode: Disabled";
-"call_streaming_on" = "Voice mode: Enabled";
-"call_message_not_delivered" = "Message not delivered, try again";
-"start_call" = "Start call";
-"start_call_continue" = "Continue";
-"call_continue" = "";
-//CALL SERVICE
-"call_service_wait" = "";
-"call_telecom_number_sent" = "Phone number sent";
-//CONTACT
-"contact_permission_request" = "Please enable permissions to view the contacts";
-"contact_unknown" = "Contact unknown";
-"contact_select_number" = "Please, enter a phone number";
-"contact_remove_item" = "Are you sure you want to remove this item?";
-"contact_remove_items" = "Are you sure you want to remove these items?";
-//COUNTRY
-"country_confirm_title" = "Confirm your Country";
-"country_confirm_description" = "In order to match our service with your needs please point out your Country";
-"country_de" = "Germany";
-"country_es" = "Spain";
-"country_fr" = "France";
-"country_gb" = "United Kingdom";
-"country_ie" = "Ireland";
-"country_it" = "Italy";
-"country_nz" = "New Zealand";
-"country_us" = "United States";
+"call_ask_repeat_audio" = "Ripeti invio";
+"call_audio_cancel" = "Annullato!";
+"call_audio_resending" = "Ripetizione invio in corso...";
+"call_audio_sending" = "Invio in corso...";
+"call_feedback_button_record" = "Trascina per annullare";
+"call_wait_for_operator" = "La preghiamo di attendere, le risponderà il primo operatore disponibile";
+"call_talking" = "Sta parlando...";
+"call_callterminated" = "Chiamata terminata";
+"call_calleepickup" = "L'interlocutore ha risposto";
+"call_no_answer" = "Nessuna risposta";
+"call_repeat" = "Può ripetere gentilmente?";
+"call_start" = "Avvio chiamata";
+"call_ringing" = "Sta squillando";
+"call_busy" = "L'utente chiamato è occupato";
+"call_invalid_number" = "Numero non valido";
+"dropped_call_string" = "Chiamata interrotta in modo inatteso";
+"call_lost_connection" = "Connessione di rete assente. La chiamata è stata terminata.";
+"call_no_credit_message" = "Il tuo credito Pedius è insufficiente per effettuare la telefonata.";
+"call_write_message" = "Scrivi un messaggio";
+"call_generic_error" = "Impossibile avviare la chiamata";
+"call_permission_request_mic" = "Abilita i permessi per utilizzare il microfono";
+"call_ask_repeat" = "Chiedere ripetizione?";
+"call_question_terminate_call" = "Sei sicuro di voler terminare la telefonata?";
+"call_streaming_off" = "Modalità voce: DISATTIVATA";
+"call_streaming_on" = "Modalità voce: ATTIVATA";
+"call_message_not_delivered" = "Messaggio non inviato, riprovare";
+"start_call" = "Chiamata in corso";
+"start_call_continue" = "Continua";
+"call_continue" = "Continua";
+
+//MARK: - CALL SERVICE
+"call_service_wait" = "Ti stiamo mettendo in contatto con un operatore.\nTi preghiamo di attendere";
+"call_telecom_number_sent" = "Numero di telefono inviato";
+//MARK: - CONTACT
+"contact_permission_request" = "Abilita i permessi per accedere alla rubrica";
+"contact_unknown" = "Numero sconosciuto";
+"contact_select_number" = "Seleziona un numero";
+"contact_remove_item" = "Sicuro di voler eliminare questo elemento?";
+"contact_remove_items" = "Sicuro di voler eliminare questi elementi?";
+//MARK: - COUNTRY
+"country_confirm_title" = "Conferma il tuo Paese";
+"country_confirm_description" = "Per fornirti un servizio che risponda alle tue esigenze ti preghiamo di indicare il tuo Paese";
+"country_de" = "Germania";
+"country_es" = "Spagna";
+"country_fr" = "Francia";
+"country_gb" = "Regno Unito";
+"country_ie" = "Irlanda";
+"country_it" = "Italia";
+"country_nz" = "Nuova Zelanda";
+"country_us" = "Stati Uniti";
 "country_au" = "Australia";
-"country_br" = "Brazil";
+"country_br" = "Brasile";
 "country_ca" = "Canada";
-"country_pt" = "Portugal";
-"country_hk" = "China, Honk Hong";
+"country_pt" = "Portogallo";
+"country_hk" = "Cina, Honk Hong";
 "country_at" = "Austria";
-"country_cn" = "China";
-"country_pe" = "Peru";
+"country_ch" = "Svizzera";
+"country_cn" = "Cina";
+"country_pe" = "Perù";
 
-"country_confirm_success" = "Country confirmed with success";
-//CREDIT
-"minutes" = "Minutes";
-"credit_free_min" = "Free Minutes";
-"credit_premium_min" = "Premium Minutes";
+"country_confirm_success" = "Paese confermato con successo";
+//MARK: - CREDIT
+"minutes" = "Minuti";
+"credit_free_min" = "Minuti Free";
+"credit_premium_min" = "Minuti Premium";
 "credit_unlimited" = "Pedius Unlimited";
-"credit_get_bonus_title" = "Get Bonus Minutes";
-"menu_get_bonus" = "Get Bonus Minutes";
-"credit_expire" = "Expiration: ";
-"credit_unlimited_active" = "Active";
-"credit_unlimited_inactive" = "Inactive";
-"credit_free_description" = "20 minutes will be automatically renewed to your account each month without fees. With these, you can call any number for free.";
-"credit_premium_description_active" = "You can use these minutes to call any number after you’ve finished your free 20 minutes. Any bonus minutes received will be added here. These minutes will expire one year from the last call you made.";
-"credit_premium_description_inactive_ios" = "You can use these minutes to call any number after you’ve finished your free 20 minutes. Any bonus minutes received will be added here. These minutes will expire one year from the last call you made.";
-"credit_unlimited_inactive_ios" = "With this option you have unlimited calling with Pedius for one year.";
-"credit_unlimited_info" = "You have unlimited calling with Pedius for one year. At the end of the year, your account will not be automatically charged again.";
-"credit" = "Credit";
+"credit_get_bonus_title" = "Ottieni minuti bonus";
+"menu_get_bonus" = "Ottieni minuti bonus";
+"credit_expire" = "Attivo fino al ";//"Scadenza: ";
+"credit_unlimited_active" = "Attivo";
+"credit_unlimited_inactive" = "Inattivo";
+"credit_free_description" = "Ti permettono di chiamare gratuitamente qualsiasi numero, fisso o mobile. I 20 minuti vengono rinnovati automaticamente e senza alcun costo il primo di ogni mese.";
+"credit_premium_description_active" = "Puoi chiamare qualsiasi numero, fisso o mobile e ti verranno scalati una volta terminati i 20 minuti free. Nei minuti premium sono compresi tutti i minuti da te accumulati con eventuali bonus. Tutti i minuti premium scadono dopo un anno dalll'ultima chiamata effettuata.";
+"credit_premium_description_inactive_ios" = "Si ottengono tramite il nostro sito internet acquistando uno dei pacchetti disponibili nella sezione Offerta. Ti consentono di chiamare qualsiasi numero mobile del territorio nazionale. Tali minuti verranno inoltre utilizzati per le chiamate verso i numeri fissi una volta esauriti i minuti free a dispozione.";
+"credit_unlimited_inactive_ios" = "Chiama tutti senza limiti per un anno!";
+"credit_unlimited_info" = "Con questa offerta attiva chiami tutti senza limiti per un anno. Pedius Unlimited non si rinnova automaticamente.";
+"credit" = "Credito";
 
-//nuove credito
-"credit_premium_description_inactive_ios_new" = "You can use these minutes to call any number after you’ve finished your free 20 minutes. Any bonus minutes received will be added here. These minutes will expire one year from the last call you made.";
-"credit_unlimited_inactive_ios_new" = "With this option you have unlimited calling with Pedius for one year.";
-"credit_unlimited_info_new" = "You have unlimited calling with Pedius for one year. At the end of the year, your account will not be automatically charged again.";
+//MARK: - nuove credito
+"credit_premium_description_inactive_ios_new" = "Puoi chiamare qualsiasi numero, fisso o mobile e ti verranno scalati una volta terminati i 20 minuti free. Nei minuti premium sono compresi tutti i minuti da te accumulati con eventuali bonus. Tutti i minuti premium scadono dopo un anno dalll'ultima chiamata effettuata.";
+"credit_unlimited_inactive_ios_new" = "Chiama tutti senza limiti per un anno!";
+"credit_unlimited_info_new" = "Con questa offerta attiva chiami tutti senza limiti per un anno. Pedius Unlimited non si rinnova automaticamente.";
 
-//ERROR
-"error_generic" = "An error occurred, please try again later";
-"error_no_connection" = "Cannot perform the requested task.";
-"error_registration" = "Login error, please try again.";
-"error_recovery_password" = "The email entered is invalid, verify it is correct. If problems persist please contact us at info@pedius.org";
-"error_login_credential" = "Wrong User name or password. You may consider trying the password recovery function";
-"error_login_near_deadline" = "Warning, your account on this version will expire in: %@ days. Please update version";
-"error_login_just_deadline" = "Warning, the version you are using has expired! Please update to keep using the service.";
-"error_mail" = "No mail application found. Contact us at info@pedius.org";
-//FEEDBACK
-"feedback_send_comment" = "Send us your comments (optional)";
-"feedback_rating_question" = "Quality of the conversation";
-//FORGOT_PASSWORD
-"forgot_password_put_email" = "Enter your email";
-"forgot_password_recovery_message" = "Retrieve password";
-"forgot_password_recovery_success" = "Operation successful! You will soon receive an e-mail with instructions to retrieve your password";
-"forgot_password_recovery_unsucces" = "There was an error in the credentials recovery process. Please check again all fields content. If you cannot recover your credentials please contact us at info@pedius.org";
-//GENERAL
+
+//MARK: - ERROR
+"error_generic" = "Si è verificato un errore, riprova più tardi";
+"error_no_connection" = "Impossibile eseguire operazione richiesta. Nessuna connessione ad Internet.";
+"error_registration" = "Errore in fase di registrazione, si prega di riprovare.";
+"error_recovery_password" = "L'email inserita non è valida, verifica la sua correttezza. Se non riesci a recuperare le tue credenziali contattaci a info@pedius.org";
+"error_login_credential" = "Le credenziali inserite risultano errate. Se non riesci ad accedere prova la funzionalità Recupera Credenziali";
+"error_login_near_deadline" = "Attenzione, la versione dell'applicazione che stai utilizzando scadrà tra: %@ giorni. Ti consigliamo di aggiornare.";
+"error_login_just_deadline" = "Attenzione, la versione dell'applicazione in utilizzo è scaduta! Si prega di effettuare un aggiornamento per continuare nell' utilizzo.";
+"error_mail" = "Nessuna applicazione di posta trovata. Scrivici a info@pedius.org";
+//MARK: - FEEDBACK
+"feedback_send_comment" = "Inviaci un tuo commento (opzionale)";
+"feedback_rating_question" = "Qualità della conversazione";
+//MARK: - FORGOT_PASSWORD
+"forgot_password_put_email" = "Inserisci la tua email";
+"forgot_password_recovery_message" = "Recupera password";
+"forgot_password_recovery_success" = "Operazione completata con successo! Un email con le indicazioni per ripristinare la tua password è stata inviata al tuo indirizzo di posta elettronica";
+"forgot_password_recovery_unsucces" = "Si è verificato un errore nella procedura di recupero password. Controlla che i campi inserti siano corretti. Per maggiori informazioni contattaci a info@pedius.org";
+//MARK: - GENERAL
 "email" = "Email";
 "password" = "Password";
-"your_email" = "Your email";
-"call" = "Call";
-"copy" = "Copy";
-"repeat" = "Repeat";
-"back" = "Back";
-"send" = "Send";
-"skip" = "Skip";
-"error" = "Error";
-"cancel" = "Cancel";
-"close" = "Close";
-"confirm" = "Confirm";
-"save" = "Save";
-"try_again" = "Try again";
-"agree" = "I agree";
-"country" = "Country";
-"edit" = "Edit";
-"contact_us" = "Contact us";
-"email_subject" = "Pedius customer care";
-"wait" = "Wait";
-"connection" = "Connection";
-"update" = "Update";
+"your_email" = "La tua email";
+"call" = "Chiama";
+"copy" = "Copia";
+"repeat" = "Ripeti";
+"back" = "Indietro";
+"send" = "Invia";
+"skip" = "Salta";
+"error" = "Errore";
+"cancel" = "Annulla";
+"close" = "Chiudi";
+"confirm" = "Conferma";
+"save" = "Salva";
+"try_again" = "Riprova";
+"agree" = "Sono d'accordo";
+"country" = "Paese";
+"edit" = "Modifica";
+"contact_us" = "Contattaci";
+"email_subject" = "Assistenza clienti Pedius";
+"wait" = "Attendere";
+"connection" = "Connessione";
+"update" = "Aggiorna";
 "ok" = "OK";
-"settings" = "Settings";
-"not_now" = "Not now";
-"number" = "Number";
-"delete" = "Delete";
-"please_wait" = "Please wait";
-"go" = "Open";
+"settings" = "Impostazioni";
+"not_now" = "Non ora";
+"number" = "Numero";
+"delete" = "Elimina";
+"please_wait" = "Si prega di attendere.";
+"go" = "Vai";
 "no" = "No";
-"yes" = "Yes";
-"choose" = "Choose";
-"attention" = "Attention";
-"country_code" = "Country code";
-"old_password" = "Old password";
-"repeat_password" = "Repeat password";
-"search" = "Search";
-"tac" = "Terms and conditions";
-"language_fi" = "Finnish";
-"phone_number" = "Phone number";
-//HOME
-"home_latest_call_tab" = "Recents";
-"home_contacts_tab" = "Contacts";
-"home_services_tab" = "Services";
-"home_open_keypad_button" = "Open keyboard";
-"home_favorites" = "Favorites";
-"home_delete_last_calls" = "Clear call log";
-"home_recent_call_empty" = "No recent calls";
-"home_quit_message" = "Close the application?";
-//IN APP PURCHASE
-"iap_transaction_ok" = "You successfully topped up";
-"iap_transaction_server_error" = "Something wrong occurred regarding your top up request. Please contact us at info@pedius.org";
-"iap_transaction_next" = "We are processing your top up request. We will soon update the amount of your credit";
-"iap_disabled" = "Purchases are disabled on this device";
-"iap_top_up" = "Pedius Top Up";
-"iap_transaction_apple_error" = "At the moment we could not complete this operation, please try later";
-"iap_purchase" = "Purchase";
-//INCOMING CALL
-"incoming_call_push_text" = "Incoming call";
-"incoming_call_missed" = "Missed call";
-"incoming_call_inactive" = "We are sorry, this call has been disconnected";
-//LANGUAGE
-"language_it" = "Italian";
-"language_fr" = "French";
-"language_de" = "German";
-"language_es" = "Spanish";
-"language_pt" = "Portuguese";
-"language_en_gb" = "English (GB)";
-"language_en_us" = "English (US)";
-"language_en" = "English";
-"country_ch" = "Switzerland";
-"language_call" = "Call language";
-"language_choose" = "Choose call language";
-"language" = "Language";
+"yes" = "Sì";
+"choose" = "Scegli";
+"attention" = "Attenzione";
+"country_code" = "Prefisso internazionale";
+"old_password" = "Vecchia password";
+"repeat_password" = "Ripeti password";
+"search" = "Cerca";
+"tac" = "Termini e Condizioni";
+"language_fi" = "Finlandese";
+"phone_number" = "Numero di telefono";
+//MARK: - HOME
+"home_latest_call_tab" = "Recenti";
+"home_contacts_tab" = "Contatti";
+"home_services_tab" = "Servizi";
+"home_open_keypad_button" = "Apri tastiera";
+"home_favorites" = "Preferiti";
+"home_delete_last_calls" = "Cancella registro chiamate";
+"home_recent_call_empty" = "Nessuna chiamata effettuata";
+"home_quit_message" = "Chiudere l'applicazione?";
+//MARK: - IN APP PURCHASE
+"iap_transaction_ok" = "La ricarica è stata effettuata.";
+"iap_transaction_server_error" = "Attenzione, si è verificato un errore durante la transazione. Contattaci all’indirizzo info@pedius.org";
+"iap_transaction_next" = "Abbiamo preso in cosengna la tua ricarica. Provvederemo al più presto a incrementare il tuo credito.";
+"iap_disabled" = "Acquisti disabilitati su questo dispositivo";
+"iap_top_up" = "Pedius Ricarica";
+"iap_transaction_apple_error" = "Impossibile effettuare la transazione, prego riprovare più tardi";
+"iap_purchase" = "Acquista";
+//MARK: - INCOMING CALL
+"incoming_call_push_text" = "Chiamata in arrivo %@";
+"incoming_call_missed" = "Chiamata persa";
+"incoming_call_inactive" = "Siamo spiacenti ma questa chiamata è stata interrotta";
+//MARK: - LANGUAGE
+"language_it" = "Italiano";
+"language_fr" = "Francese";
+"language_de" = "Tedesco";
+"language_es" = "Spagnolo";
+"language_pt" = "Portoghese";
+"language_en_gb" = "Inglese(GB)";
+"language_en_us" = "Inglese (US)";
+"language_en" = "Inglese";
+"language_call" = "Lingua della chiamata";
+"language_choose" = "Seleziona la lingua della chiamata";
+"language" = "Lingua";
 //MARK: - LOGIN
-"login_loginwith" = "LOGIN WITH";
-"login_with_label" = "or use your email";
-"login_forgot_password" = "Forgot password?";
-"login_button" = "Login";
-"login_confirmation_required" = "Please confirm your e-mail address";
-"login_remember" = "Remember me";
-"login_in_progress" = "Logging in";
-"login_set_new_password_description" = "We updated our systems in order to comply with higher security standards. For this reason, we kindly ask you to choose a new Password";
-"login_set_new_password_hint" = "Password requirements: at least 8 characters including at least a digit and a letter.";
-"login_set_new_password_message_success" = "Thank you, your password was successfully updated!\nKeep calling with Pedius!";
-"login_set_new_password_placeholder" = "Set new password";
-"login_set_new_password_title" = "Password update required";
-//MENU
-"menu_call_settings" = "Call settings";
+"login_loginwith" = "ACCEDI CON";
+"login_with_label" = "o usa la tua email";
+"login_forgot_password" = "Password dimenticata?";
+"login_button" = "Accedi";
+"login_confirmation_required" = "È necessario confermare la propria email per poter effettuare l' accesso.";
+"login_remember" = "Ricordami";
+"login_in_progress" = "Login in corso";
+"login_set_new_password_description" = "Per garantirti un elevato standard di sicurezza abbiamo aggiornato i nostri sistemi. Per questo motivo ti chiediamo di scegliere una nuova Password";
+//"login_set_new_password_hint" = "La nuova Password dovrà contenere 8 caratteri di cui almeno un numero e una lettera.";
+"login_set_new_password_hint" = "La password deve contenere almeno:\n- 8 caratteri\n- una lettera maiuscola\n- una lettera minuscola\n- un numero\n- un carattere speciale (!*+-%&)";
+"login_set_new_password_message_success" = "Grazie, la tua nuova password è stata salvata con successo!\nContinua a telefonare con Pedius!";
+"login_set_new_password_placeholder" = "Imposta nuova Password";
+"login_set_new_password_title" = "Aggiornamento Password";
+//MARK: - MENU
+"menu_call_settings" = "Impostazioni di chiamata";
 "menu_about" = "About";
 "menu_account" = "Account";
 "menu" = "Menu";
 "menu_home" = "Home";
 //MARK: - PROMO CODE
-"promo_code_ok" = "You got a bonus!";
-"promo_code_wrong" = "The code you entered is invalid";
-"promo_reus" = "You already used this promo code";
-"promo_not_auth" = "You are not authorized to use this code";
-"promo_code_expired" = "This promo code is expired";
-"promo_code" = "Promotional code";
-"promo_codes" = "Promo Codes";
-"promo_code_title" = "Do you have a promo code?";
-"promo_code_text" = "Do you have a promo code?\nEnter it in the box below to receive bonus credit";
+"promo_code_ok" = "Hai ottenuto il bonus!";
+"promo_code_wrong" = "Il codice inserito non è valido.";
+"promo_reus" = "Hai già utilizzato questo codice promozionale.";
+"promo_not_auth" = "Utente non autorizzato ad utilizzare questo codice!";
+"promo_code_expired" = "Questo codice promozionale è scaduto";
+"promo_code" = "Codice promozionale";
+"promo_codes" = "Codici promozionali";
+"promo_code_title" = "Hai un codice promozionale?";
+"promo_code_text" = "Hai un codice promozionale? Inseriscilo qui sotto per ricevere minuti bonus in omaggio";
 //MARK: - SERVICES
-"services_all" = "All services";
-"services_recommended" = "Recommended services";
-"services_not_available" = "The service you have called is not available at the moment";
+"services_all" = "Tutti i servizi";
+"services_recommended" = "Servizi consigliati";
+"services_not_available" = "Il servizio chiamato non è al momento disponibile";
 "services_closed" = "Servizio aperto da %@ a %@";
-"services_not" = "In this section you will find a list of services and businesses affiliated with Pedius, which you can call for free. At the moment this page is under construction.";
-"call_operator_busy" = "All operators are currently occupied, please try your call again later";
-
+"services_not" = "In questa sezione potrai trovare una lista di servizi e di attività commerciali convenzionate con Pedius, che potrai chiamare gratuitamente. Al momento questa pagina è in via di allestimento.";
+"call_operator_busy" = "Tutti gli operatori sono momentaneamente occupati, la preghiamo di riprovare più tardi";
 //MARK: - SHARE
-"share_description" = "By inviting friends to register with Pedius, you can earn as many as %@ free minutes! For every new user that signs up through your account, you will receive %@ Premium Minutes. If your friend also purchases the premium option, you will receive an additional %@ minutes.";
-"share_normal_text" = "Install Pedius now and get %@ free minutes! Pedius is an application that allows deaf people to make phone calls. Download now!";
-"share_twitter_text" = "Download Pedius, an app that allows deaf people to make phone calls, and you will receive %@ free minutes!";
-"share_invite" = "Invite a friend";
-"share_dialog_title" = "Share";
+"share_description" = "Con invita un amico puoi ottenere fino a %@ minuti di chiamate gratuite!\nPer ogni nuovo utente che si registra con un tuo invito, Pedius ti regala %@ minuti Premium!\nE in più al primo acquisto da lui effettuato ricevi ulteriori %@ minuti.";
+"share_normal_text" = "Pedius è un’applicazione che permette alle persone non udenti di effettuare normali telefonate.\nInstalla Pedius e riceverai subito %@ minuti di chiamate!";
+"share_twitter_text" = "Scarica Pedius, l’app che permette alle persone non udenti di effettuare telefonate e riceverai subito %@ minuti!";
+"share_invite" = "Invita";
+"share_dialog_title" = "Condividi";
 //MARK: - SIGNUP
-"signup" = "Sign up";
-"signup_tac" = "By accessing you agree terms and conditions";
-"signup_with" = "SIGN UP WITH";
-"signup_url_tac" = "https://pedius.org/registration/termsandconditions";
-"registration_invalid_email" = "e-mail address not valid";
-//"registration_field_min_length" = "Minimum 8 characters, it should contain at least one letter and one number";
-"registration_field_min_length" =  "The password must contain:\n- 8 characters\n- a lowercase letter\n- an uppercase letter\n- a number\n- a special character (!*+-%&)";
-"registration_email_already_exists" = "Email already exists, try another email";
-//START CALL
-"start_call_avoid_message" = "Please place your first message before starting call";
-"start_call_message1" = "This call is made via Pedius, a phone service for deaf people";
-"start_call_message2" = "This call is from a deaf person through an virtual interpreter";
-"start_call_message3" = "This call is made by a deaf person through Pedius";
-"start_call_message4" = "Good Morning I'm %@. I call it with Pedius, a service that will read my messages";
-"start_call_message5" = "Hi I'm %@. I'll call you with Pedius, a service that will read my messages";
-"startcall_write_first_message" = "Insert first message";
-"start_call_choose_countrycode" = "Choose a country code";
-"startcall_choose_from_list" = "or select from below";
-"startcall_first_message_advice" = "Insert or select a message to start a call";
+"signup" = "Registrati";
+"signup_tac" = "Effettuando l'accesso accetti i termini e le condizioni d'uso";
+"signup_with" = "REGISTRATI CON";
+"signup_url_tac" = "https://pedius.org/registration/terminiecondizioni";
+"registration_invalid_email" = "Email non valida!";
+"registration_field_min_length" = "La password deve contenere almeno:\n- 8 caratteri\n- una lettera maiuscola\n- una lettera minuscola\n- un numero\n- un carattere speciale (!*+-%&)";
+//"Inserisci una password che contenga almeno 8 caratteri, di cui una lettera e un numero";
+"registration_email_already_exists" = "Email già esistente, prova con un'altra email.";
+//MARK: - START CALL
+"start_call_avoid_message" = "Ti preghiamo di inserire un primo messaggio prima di avviare la chiamata.";
+"start_call_message1" = "Questa telefonata è effettuata tramite Pedius, un servizio di telefonia per le persone sorde";
+"start_call_message2" = "Questa chiamata proviene da una persona non udente, attraverso un interprete virtuale";
+"start_call_message3" = "Questa telefonata è effettuata da una persona sorda tramite Pedius";
+"start_call_message4" = "Buongiorno sono %@ . La chiamo con Pedius, un servizio che leggerà i miei messaggi";
+"start_call_message5" = "Ciao sono %@, ti chiamo con Pedius, un servizio che leggerà i miei messaggi";
+"startcall_write_first_message" = "Scrivi il primo messaggio";
+"start_call_choose_countrycode" = "Seleziona il prefisso internazionale";
+"startcall_choose_from_list" = "Oppure selezionalo da quelli predefiniti";
+"startcall_first_message_advice" = "Inserisci o seleziona il primo messaggio per poter procedere con la chiamata.";
 "start_call_tutorial" = "Tutorial";
-"start_call_avoid_message_voice" = "It is suggested to insert or select a first message before making a call";
-"start_call_not_show_again" = "Continue and don't show again";
-//START CALL SERVICE
-"startcall_telecom_placeholder_number" = "Insert the number";
-"startcall_telecom_permissions" = "In order to use this service you will be asked to enter your phone number. We will share this number with the contact's customer care.";
-"startcall_telecom_redirect" = "This number is available in FREE SERVICES. In order to use this service you will be asked to type your phone number. We will share this number with the contact’s customer care.";
-"startcall_service_free_number" = "The number is available in the FREE SERVICES";
-//STREAMING
-"call_audio_activated" = "Audio on";
-"call_audio_deactivated" = "Audio off";
-//TUTORIAL
-"tutorial_page_1" = "The new version of Pedius allows the use of voice and text to make independent phone calls in real time.";
-"tutorial_page_2" = "Use your voice to speak during phone calls, with no interruptions.";
-"tutorial_page_3" = "Write your message, and Pedius will read it to your contact using an artificial voice.";
-"tutorial_page_4" = "Switch from voice and text, whenever you want, during your phone calls.";
-"popup_new_version" = "Pedius has a new look that is more simple and easy to use.";
-//WALKTHROUGH
+"start_call_avoid_message_voice" = "Ti consigliamo di inserire un primo messaggio prima di avviare la chiamata.";
+"start_call_not_show_again" = "Continua e non mostrarlo più";
+//MARK: - START CALL SERVICE
+"startcall_telecom_placeholder_number" = "Scrivi qui il tuo numero";
+"startcall_telecom_permissions" = "Per utilizzare il servizio ti verrà chiesto di indicare il tuo numero TIM (FISSO o MOBILE) o un recapito telefonico che verrà trasmesso al servizio clienti";
+"startcall_telecom_redirect" = "Il numero è disponibile tra i SERVIZI GRATUITI.\nPer utilizzare il servizio ti verrà chiesto di indicare il tuo numero TIM (FISSO o MOBILE) o un recapito telefonico che verrà trasmesso al servizio clienti.";
+"startcall_service_free_number" = "Il numero è disponibile tra i SERVIZI GRATUITI \n";
+"call_operator_busy" = "Tutti gli operatori sono momentaneamente occupati, la preghiamo di riprovare più tardi";
+
+//MARK: - STREAMING
+"call_audio_activated" = "Audio attivato";
+"call_audio_deactivated" = "Audio disattivato";
+//MARK: - TUTORIAL
+"tutorial_page_1" = "Con la nuova versione di Pedius è possibile utilizzare entrambe le modalità VOCE e TESTO per telefonare autonomamente e in tempo reale";
+"tutorial_page_2" = "Puoi utilizzare la tua voce per portare avanti la telefonata normalmente senza interruzioni";
+"tutorial_page_3" = "Scrivi un messaggio e Pedius lo leggerà al tuo interlocutore tramite una voce artificiale";
+"tutorial_page_4" = "Durante la telefonata puoi cambiare modalità quando vuoi, passando dalla modalità TESTO a quella VOCE e viceversa.";
+"popup_new_version" = "Pedius da oggi ha una nuova veste grafica più intuitiva e semplice";
+//MARK: - WALKTHROUGH
 "slide1_title" = "PHONE CALLS FOR THE DEAF";
-"slide1_service" = "";
-"slide1_20minfree" = "20 minutes of free calling\neach month";
-"slide2_title" = "How it works";
-"slide2_description" = "Pedius converts voice into text and text into voice without intermediaries";
-"slide3_title" = "You can write ...";
-"slide3_middle_description" = "Write a message and an automated voice will read it for you";
-"slide3_bottom_description" = "You will read the answer in real time!";
-"slide4_title" = "... or you can speak";
-"slide4_middle_description" = "Switch from voice and text, whenever you want, during your phone calls";
-"slide4_bottom_description" = "You will read the answer in real time!";
-"slide_voice" = "Voice";
-"slide_text" = "Text";
+"slide1_service" = "IL SERVIZIO DI TELEFONIA\nPER LE PERSONE SORDE";
+"slide1_20minfree" = "20 minuti di chiamate\ngratuite ogni mese";
+"slide2_title" = "Come funziona";
+"slide2_description" = "Pedius, senza intermediari, trasforma la voce in testo e il testo in voce";
+"slide3_title" = "Puoi scrivere …";
+"slide3_middle_description" = "Scrivi un messaggio e una voce artificiale lo leggerà per te";
+"slide3_bottom_description" = "Leggerai in tempo reale la risposta!";
+"slide4_title" = "... o puoi parlare";
+"slide4_middle_description" = "Premi il microfono per inviare la tua voce all'interlocutore.";
+"slide4_bottom_description" = "Leggerai in tempo reale la risposta!";
+"slide_voice" = "Voce";
+"slide_text" = "Testo";
 
-//nuove senza traduzioni
-"service_form_full_for_call" = "To proceed with the call, please ensure you have filled in all of the required fields.";
-
-"text_mode" = "Text Mode";
-"voice_mode" = "Voice Mode";
+//MARK: - nuove
+"service_form_full_for_call" = "Per poter procedere con la telefonata accertati di aver compilato tutti i campi.";
 
 
-"call_text_mode" = "Text mode";
-"call_voice_mode" = "Voice mode";
-"call_message_copied" = "";
-"call_resend" = "";
-"startcall_busy_hangup" = "Call rejected";
-"call_wait_messageplayed" = "Please wait while I send your last message";
-"rate_app" = "Rate the app";
-"call_number_disabled" = "Number disabled";
-
-"favorite_message_deleted" = "Text template deleted";
-"favorite_message" = "Text templates";
-"favorite_message_help" = "Add a new text template, you can choose it before you start a call";
-"favorite_message_confirm_delete" = "Delete this text template?";
-"favorite_message_add" = "New message";
-"device" = "Device";
-"contact_new" = "New contact";
-"contact_new_mandatory_message" = "All fields are mandatory";
-"contact_new_added" = "New contact successfully added";
-"contact_saved" = "Contact updated";
-"contact_new_empty_number_advice" = "Type a number";
-"message_saved" = "Message saved";
-"favorite_star_bubble" = "This message will be saved as a text template";
-"contact_edit" = "Edit contact";
-
-"account_change_email_password_title" = "EDIT YOUR EMAIL";
-"account_email_sent_title" = "CHECK YOUR EMAIL";
-"account_error_send_email_title" = "E-MAIL NOT SENT";
-"account_error_password_title" = "INCORRECT PASSWORD";
-"account_need_verification_title" = "CONFIRM MY ACCOUNT";
-//MARK: ACCOUNT
-"account_verify_email_description" = "Your email address has not been verified";
-"account_verify_title" = "VERIFY YOUR ACCOUNT";
-"account_send_email_text" = "Verifying your email address adds an extra layer of security and helps you manage your account";
-"account_send_email" = "VERIFY";
-"account_verify_text_new_email" = "Edit my email account.\n\nAttention: your credentials will be updated after this operation";
-"account_change_email_password" = "Insert the password to complete your request";
-"account_email_sent" = "We just sent you a verification link to %@";
-"account_error_send_email" = "Contact us at info@pedius.org";
-"account_error_password" = "Try again or contact us at info@pedius.org";
-"account_must_verify" = "VERIFY YOUR ACCOUNT\n\nAttention: You need to confirm your email address in order to use this service";
-"account_show_more" = "Edit my email address";
-"account_show_less" = "Cancel";
-"account_need_verification" = "Please, confirm your email address to keep using Pedius";
-"account_change_password_new_password_placeholder" = "New password";
-"account_change_password_error_new_passwords" = "The passwords do not match";
-"account_change_email_old_password_wrong" = "Your current password is not correct";
-"account_change_password_current_password_placeholder" = "Current password";
-"account_change_password_current_password" = "Insert your current password";
-"account_change_password_new_password" = "Insert your new password";
-"account_change_password_repeat_password" = "Repeat your new password";
-"account_change_password_success" = "Your password was successfully updated";
-"account_change_password_create" = "Create a new password";
-//GENERAL
-"ignore" = "NOT NOW";
+"text_mode" = "Modalità testo";
+"voice_mode" = "Modalità voce";
 
 
-"call_closed_by_remote" = "The person you called has interrupted the conversation";
-"call_clsed_by_remote_with_name" = "%@ has interrupted the conversation";
-"incoming_call_notification_title_alone" = "Missed call";
-"incoming_call_notification_title_plural" = "%@ Missed calls";
-"incoming_call_already_accepted" = "You have already answered from another device.";
-"accept" = "Accept";
-"decline" = "Decline";
-
-"credit_free_description_preview" = "Every month call with your free 20 minutes!";
-"credit_premium_description_preview" = "Use these extra minutes to make more calls";
-"credit_unlimited_description_preview" = "With this option you have unlimited calling with Pedius for one year.";
+"call_text_mode" = "Modalità testo";
+"call_voice_mode" = "Modalità voce";
+"call_message_copied" = "Messaggio copiato negli appunti";
+"call_resend" = "Invia nuovamente";
+"startcall_busy_hangup" = "Chiamata rifiutata";
+"call_wait_messageplayed" = "Attendi, sto inviando il tuo ultimo messaggio";
+"rate_app" = "Valuta l'app";
+"call_number_disabled" = "Numero non abilitato";
 
 
-
-//TIM
-"tim_message_number_already_used" = "We are sorry, it was not possible to verify your number because it has already been registered with another user. Please try again. For more information contact us at info@pedius.org";
-"tim_wait_for_pedius_on_ios" = "Your number was successfully verified! Visit pedius.org/g and discover what to do next!";
-
-"tim_otp_request_title" = "Verify your phone number";
-
-"tim_verify_with_cellular_wait" = "Verification in progress";
-"tim_message_error_verification" = "We are sorry, we could not verify your number. We ask that you please try again later. Thank you!";
-"tim_message_expired_otp" = "Attention, the code is expired. Please request a new code. For any problems write us at info@pedius.org";
-"tim_error_wrong_otp" = "Attention, the code entered is incorrect. Retry or request a new code.";
-"tim_invalid_number_for_otp" = "The number you have entered is incorrect. Please try again.";
-"tim_otp_request_title" = "Verify your phone number";
-"tim_otp_request_description" = "Enter your TIM number to verify";
-"tim_otp_verification_title" = "Verification code";
-"tim_otp_verification_description" = "Enter the code you received through SMS and complete the operation.";
-"tim_resend" = "Request a new code";
-"tim_otp_already_used" = "The code you have entered has already been used. Please retry or request a new code.";
-
-"tim_otp_placeholder" = "Code";
-"tim_unlimited_description" = "Call any number unlimited for a week";
-"tim_unlimited_description_preview" = "Call any number unlimited for a week";
-"tim_associated_phone_number" = "The verified number is: ";
-"annual" = "Annual";
-"tim_message_generic_error" = "Attention, there has been an error. Please try again later.";
-"credit_unlimited_annual" = "Pedius Unlimited Annual";
-"tim_resend_otp_message" = "The new code has been sent through SMS to the number previously entered. ";
-"tim_in_activation" = "IN ACTIVATION";
-"tim_for_tim_customers" = "Available for TIM customers";
+"favorite_message_deleted" = "Messaggio eliminato dai predefiniti";
+"favorite_message" = "Messaggi predefiniti";
+"favorite_message_help" = "Aggiungi un messaggio iniziale, lo troverai tra i predefiniti all'avvio della chiamata.";
+"favorite_message_confirm_delete" = "Eliminare il messaggio predefinito?";
+"favorite_message_add" = "Nuovo messaggio";
+"device" = "Dispositivo";
+"contact_new" = "Nuovo contatto";
+"contact_new_mandatory_message" = "Compila tutti i campi";
+"contact_new_added" = "Il nuovo contatto è stato aggiunto alla tua rubrica";
+"contact_saved" = "Il contatto è stato salvato";
+"contact_new_empty_number_advice" = "Inserisci un numero";
+"message_saved" = "Messaggio salvato";
+"favorite_star_bubble" = "Questo messaggio verrà salvato tra i predefiniti.";
+"contact_edit" = "Modifica contatto";
 
 
-//MARK: version 4
-"call_new_messages_available" = "New messages";
-"call_new_message_available" = "New message";
-"popup_new_version_4_description" = "From today, the transcription of Pedius is even faster!\nFurthermore, you can read the arriving messages in real time as soon as your contact is composing the messages.";
-"popup_new_version_4_button" = "Try it now";
-"menu_settings_incoming_messages" = "Messages arriving";
-"settings_incoming_messages_title" = "Composition mode in real time";
-"settings_incoming_messages_description" = "This message in real time allows you to see the arriving messages in the order they are sent from your contact";
-"tutorial_page_5" = "The words from your contact will be able to be seen as a message as they are composed in real time.";
+//MARK: - ACCOUNT NEW
+"account_change_email_password_title" = "MODIFICA EMAIL";
+"account_email_sent_title" = "CONTROLLA LA TUA EMAIL";
+"account_error_send_email_title" = "INVIO EMAIL NON RIUSCITO";
+"account_error_password_title" = "PASSWORD ERRATA";
+"account_need_verification_title" = "VERIFICA ACCOUNT";
+"account_verify_email_description" = "La tua email non è confermata";
+"account_verify_title" = "VERIFICA ACCOUNT";
+"account_send_email_text" = "Un indirizzo email confermato aumenta la sicurezza del nostro servizio e ti aiuta nella gestione del tuo account.";
+"account_send_email" = "VERIFICA";
+"account_verify_text_new_email" = "Modifica l'email del tuo account Pedius\n\nAttenzione: con questa azione verrano modificati i tuoi dati di accesso.";
+"account_change_email_password" = "Inserisci la tua password per completare la richiesta";
+"account_email_sent" = "È stata inviata una email a %@ con un link per completare la verifica";
+"account_error_send_email" = "Contattaci a info@pedius.org";
+"account_error_password" = "Riprova o contattaci a info@pedius.org";
+"account_must_verify" = "VERIFICA ACCOUNT\n\nAttenzione:\nNon hai ancora verificato la tua email, devi completare la procedura per utilizzare il servizio.";
+"account_show_more" = "Modifica la mia email";
+"account_show_less" = "Annulla";
+"account_need_verification" = "Ti preghiamo di confermare la tua email per continuare ad utilizzare il servizio";
+
+//"account_change_password_new_password_placeholder" = "Nuova password";
+//"account_change_password_error_new_passwords" = "Le password non corrispondono";
+//"account_change_email_old_password_wrong" = "La password attuale non è corretta.";
+//"account_change_password_current_password_placeholder" = "Password attuale";
+//"account_change_password_current_password" = "Inserisci la password attuale";
+//"account_change_password_new_password" = "Inserisci la nuova password";
+//"account_change_password_repeat_password" = "Ripeti la nuova password";
+//"account_change_password_success" = "La nuova password è stata salvata con successo";
+//"account_change_password_create" = "Crea una nuova password";
+
+"account_change_password_create" = "Crea una nuova password";
+
+"account_change_password_new_password_placeholder" = "Nuova password";
+"account_change_password_error_new_passwords" = "Le password non corrispondono";
+"account_change_email_old_password_wrong" = "La password attuale non è corretta.";
+"account_change_password_current_password_placeholder" = "Password attuale";
+"account_change_password_current_password" = "Inserisci la password attuale";
+"account_change_password_new_password" = "Inserisci la nuova password";
+"account_change_password_repeat_password" = "Ripeti la nuova password";
+"account_change_password_success" = "La nuova password è stata salvata con successo";
+
+
+
+//MARK: GENERAL
+"ignore" = "NON ORA";
+
+
+
+
+
+//27 giugno
+
+"call_closed_by_remote" = "Il tuo interlocutore ha interrotto la conversazione";
+"call_clsed_by_remote_with_name" = "%@ ha interrotto la conversazione";
+"incoming_call_notification_title_alone" = "Chiamata persa";
+"incoming_call_notification_title_plural" = "%@ chiamate perse";
+"incoming_call_already_accepted" = "Hai già risposto da un altro dispositivo";
+"accept" = "Rispondi";
+"decline" = "Rifiuta";
+
+"credit_free_description_preview" = "Ogni mese chiama con i tuoi 20 minuti gratuiti!";
+"credit_premium_description_preview" = "Utilizza questi minuti aggiuntivi per telefonare a chi vuoi";
+"credit_unlimited_description_preview" = "Chiama tutti senza limiti per un anno!";
+"annual" = "Annuale";
+
+"tim_message_number_already_used" = "Siamo spiacenti, non è stato possibile verificare il tuo numero in quanto già associato ad altro utente. Ti preghiamo di riprovare. Per informazioni contattaci a info@pedius.org ";
+"tim_wait_for_pedius_on_ios" = "Il tuo numero è stato verificato con successo! Vai su pedius.org/g e scopri cosa fare";
+
+"tim_otp_request_title" = "Verifica il tuo numero di telefono";
+
+"tim_verify_with_cellular_wait" = "Verifica in corso";
+"tim_message_error_verification" = "Siamo spiacenti, non siamo riusciti a verificare il tuo numero. Ti preghiamo di riprovare più tardi. Grazie!";
+"tim_message_expired_otp" = "Attenzione, il codice inserito è scaduto. Richiedi un nuovo codice. Per problemi contattaci a info@pedius.org";
+"tim_error_wrong_otp" = "Attenzione, il codice inserito non è corretto. Riprova oppure richiedi un nuovo codice.";
+"tim_invalid_number_for_otp" = "Il numero che hai inserito non è corretto. Ti preghiamo di riprovare.";
+"tim_otp_request_title" = "Verifica il tuo numero di telefono";
+"tim_otp_request_description" = "Inserisci il numero TIM da verificare";
+"tim_otp_verification_title" = "Verifica codice";
+"tim_otp_verification_description" = "Inserisci il codice ricevuto tramite SMS e completa l'operazione";
+"tim_resend" = "Richiedi un nuovo codice";
+"tim_otp_already_used" = "Il codice che hai inserito è già stato utilizzato. Riprova, oppure richiedine un altro.";
+
+"tim_otp_placeholder" = "Codice";
+"tim_unlimited_description" = "Chiama tutti senza limiti per una settimana!";
+"tim_unlimited_description_preview" = "Chiama tutti senza limiti per una settimana";
+"tim_associated_phone_number" = "Il tuo numero verificato: ";
+
+"tim_message_generic_error" = "Attenzione, si è verificato un errore. Riprova più tardi.";
+"credit_unlimited_annual" = "Pedius Unlimited";// Annuale";
+"tim_resend_otp_message" = "Il nuovo codice è stato inviato per SMS al numero precedentemente inserito";
+"tim_in_activation" = "IN ATTIVAZIONE";
+"tim_for_tim_customers" = "Disponibile per clienti TIM";
+
+
+//MARK - version 4.0
+"call_new_messages_available" = "Nuovi messaggi";
+"call_new_message_available" = "Nuovo messaggio";
+"popup_new_version_4_description" = "Da oggi la trascrizione di Pedius è ancora più veloce!\nIn più, leggerai i messaggi in arrivo in tempo reale man mano che si compongono.";
+"popup_new_version_4_button" = "Provalo subito";
+"menu_settings_incoming_messages" = "Messaggi in arrivo";
+"settings_incoming_messages_title" = "Modalità di composizione in tempo reale";
+"settings_incoming_messages_description" = "La modalità di composizione in tempo reale ti permette di visualizzare i messaggi in arrivo progressivamente mentre vengono pronunciati dal tuo interlocutore";
+"tutorial_page_5" = "Le parole del tuo interlocutore verranno visualizzate in messaggi che si compongono progressivamente e in tempo reale";
 //MARK - version 4.1
-"call_audio_disabled" = "Voice Mode is temporarily unavailable, use text mode to continue the call";
-"services_save_data" = "Save data";
+"call_audio_disabled" = "La modalità Voce è temporaneamente non disponibile, usa la modalità testo per continuare la telefonata";
+"services_save_data" = "Salva dati";
+
+
+
 //ALO
-"alo_dial" = "Dial";
-"alo_history" = "History";
+"alo_dial" = "Chiama";
+"alo_history" = "Recenti";
 "credit_minutes_abbr" = "min";
 "language_yu_cn" = "Cantonese";
-"language_cn" = "Chinese";
+"language_cn" = "Cinese";
+
 
 //MARK: - SWISSCOM
-"swisscom_request_interpreter_title" = "Request an Interpreter";
-"swisscom_request_interpreter_description"= "This feature is not yet available. You may request the involvement of an interpreter or you may return to the Pedius screen to make phone calls without a third party.";
-"swisscom_discover_how_button"= "Discover how to call with an interpreter";
-"swisscom_call_with_pedius"= "Call independently with Pedius";
-"credit_swisscomnova_description"="Thanks to Swisscom, Pedius is free for you";
+"swisscom_request_interpreter_title" = "Richiedi l'intervento di un interprete";
+"swisscom_request_interpreter_description"= "Questa funzione non è ancora disponibile. È possibile richiedere l'intervento di un interprete oppure tornare alla schermata Pedius per effettuare chiamate senza un operatore di terze parti.";
+"swisscom_discover_how_button"= "Scopri come chiamare con l'interprete";
+"swisscom_call_with_pedius"= "Chiama in autonomia con Pedius";
+"credit_swisscomnova_description"="Grazie a Swisscom, Pedius è gratis per te";
 
-
-"swisscom_question_1"="How easy was it to use this app?";
-"swisscom_question_2"="Have you resolved your problem with this call?";
-"swisscom_question_3"="Do you recommend the app for others within the Deaf community?";
-"swisscom_easy"="Easy";
-"swisscom_hard"="Difficult";
-"swisscom_not_advisable"="Do not recommend";
-"swisscom_advisable"="Recommend";
+"swisscom_question_1"="Quanto è stato facile usare questa app?";
+"swisscom_question_2"="Hai risolto il tuo problema con questa chiamata?";
+"swisscom_question_3"="Consiglieresti l'app ad altre persone?";
+"swisscom_easy"="Facile";
+"swisscom_hard"="Difficile";
+"swisscom_not_advisable"="Non consiglio";
+"swisscom_advisable"="Consiglio";
 
 //MARK: - RINGTONE
-"ringtone_title" = "Ringtone";
-"ringtone_description" = "Activate the ringtone when a call is received (Services, Incoming calls ...)";
+"ringtone_title" = "Suoneria";
+"ringtone_description" = "Attiva la suoneria in caso di ricezione di chiamata (Servizi, chiamate in ingresso…)";
 
 
 //CONTACTS SYNC
 
-"sync_contacts_generic_error" = "Unexpected error during the synchronization. Please try again.";
-"sync_contact_description" = "You have sucessfully signed in with Pedius! \n\n Would you like to synchronize your contacts from your phone?";
-"sync_contact_in_progress" = "Synchronization in progress... ";
-"sync_contact_pop_up_compleate_success" = "Operation complete";
-"sync_contact_compleate_success" = "Your contact list is also now available on your computer ";
+"sync_contacts_generic_error" = "Errore imprevisto durante la sincronizzazione. Si prega di riprovare.";
+"sync_contact_description" = "Hai effettuato l'accesso con Pedius!\n\nVuoi sincronizzare i contatti del tuo telefono?";
+"sync_contact_in_progress" = "Sincronizzazione in corso... ";
+"sync_contact_pop_up_compleate_success" = "Operazione completata";
+"sync_contact_compleate_success" = "La lista dei tuoi contatti è ora anche sul tuo computer";
 
 //NOTIFICATION GET CONTACT
-"get_contacts_body_loc_key" = "Synchronizing contacts";
+"get_contacts_body_loc_key" = "Sincronizza contatti";
 
-
-//MENU
-"settings_incoming_call_answer_mode" = "Answer Mode";
-"settings_incoming_call_answer_mode_description" = "Choose how you want to respond";
-//ACCOUNT
-"account_pedius_voice_title"= "Pedius Voice";
-"account_pedius_voice_description"= "Choose the voice Pedius will speak with";
-"voice_male"= "Male";
-"voice_female"= "Female";
+//MARK: -
+"settings_incoming_call_answer_mode" = "Modalità Risposta";
+"settings_incoming_call_answer_mode_description" = "Scegli in che modo vuoi rispondere";
+"account_pedius_voice_title"= "Voce Pedius";
+"account_pedius_voice_description"= "Scegli la voce con cui parlerà Pedius";
+"voice_male"= "Maschile";
+"voice_female"= "Femminile";
 
 "csl_mobile_limited" = "CSL Mobile Limited";
 "csl_preview" = "Enjoy Pedius Unlimited free of charge until %@, by courtesy of CSL.";
@@ -453,19 +479,54 @@
 
 
 
-
-"services_accept_tac" = "Accept";
-
-
-"url_privacy" = "https://www.pedius.org/privacy_en.html";
-
-"login_privacy_policy" = "I accept the Privacy Policy";
-"privacy_policy_new_title" = "New Privacy Policy";
-"login_privacy_policy_missing" = "To proceed with your registration, you must first accept the  new Privacy Policy.";
+"services_accept_tac" = "Accetto";
 
 
+"url_privacy" = "https://www.pedius.org/privacy_it.html";
 
-"call_from_invalid_vpn" = "Action not allowed, the network you are using is not secure, please contact us at: info@pedius.org";
+"login_privacy_policy" = "Accetto l'Informativa sulla privacy";
+"privacy_policy_new_title" = "Nuova Informativa sulla privacy";
+"login_privacy_policy_missing" = "Per procedere con la registrazione, devi prima accettare l'Informativa sulla privacy.";
+
+
+"call_from_invalid_vpn" = "Azione non permessa, la rete che usi non è sicura, ti preghiamo di contattarci a info@pedius.org";
+
+
+
+//MARK: - nuova app
+
+"credit_my_plan" = "Il mio credito";
+
+
+
+
+//MARK: -- nuove stringhe
+"callmode_title" = "Come vuoi comunicare?";
+"chatting" = "Scrivi";
+"speaking" = "Parla";
+"callmode_chatting_description" = "Scrivi i tuoi messaggi, verranno trasformati in voce.\nLeggi le parole del tuo interlocutore.";
+"callmode_speaking_description" = "Usa la tua voce per comunicare.\nLeggi le parole del tuo interlocutore.";
+"callmode_dont_ask" = "Questa modalità verrà usata in tutte le chiamate";
+"callmode_dont_ask_description" = "Nelle impostazioni, potrai modificare la tua scelta.";
+"calllanguage_dont_ask" = "Questa lingua verrà usata in tutte le chiamate";
+"settings_callmode" = "Modalità avvio chiamata";
+"callmode_undefined" = "Scegli ogni volta";
+"startcall_button_indicator" = "Avvia la tua chiamata da qui";
+"startcall_button_text_missed" = "Per chiamare, scrivi un messaggio";
+"personal_phonenumber_share" = "Ciao! Puoi chiamarmi sul mio numero Pedius: ";
+"personal_phonenumber_description" = "Il mio numero Pedius: ";
+"credit_free_description" = "Ogni mese Pedius ti regala 20 minuti per chiamare chi vuoi";
+"credit_premium_purchase_description" = "100 minuti extra per chiamare chi vuoi. I minuti premium scadono un anno dopo l'ultima chiamata effettuata.";
+"credit_unlimited_purchase_description" = "Un anno di chiamate senza limiti. Pedius Unlimited non si rinnova automaticamente.";
+"tabbar_keypad" = "Tastierino";
+"contacts_empty" = "Nessun contatto.\nVerifica nelle impostazioni del tuo telefono di aver dato all'applicazioni i permessi per accedere alla lista dei tuoi contatti.";
+"businesses_empty" = "Nessun servizio disponibile nella tua zona";
+"otp_resend" = "Ricevi un nuovo codice";
+"account_unlock_description" = "Il tuo account è stato temporaneamente sospeso. Controlla la tua email, ti abbiamo inviato il codice per la riattivazione.";//inserisci codice ricevuto
+"account_unlock_title" = "Riattiva il tuo account";
+"account_blocked_retry" = "Credenziali errate.\nHai raggiunto il numero massimo di tentativi possibili.\nRiprova tra %@ secondi.";
+
+
 
 
 //MARK: DELETE ACCOUNT
